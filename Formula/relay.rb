@@ -2,23 +2,23 @@ class Relay < Formula
   desc "Sync commands, skills, and agents across AI coding tools"
   homepage "https://github.com/jdblackstar/relay"
   license "MIT"
-  version "0.2.3"
+  version "0.2.4"
 
   on_macos do
     on_arm do
-      url "https://github.com/jdblackstar/relay/releases/download/v0.2.3/relay_v0.2.3_aarch64-apple-darwin.tar.gz"
-      sha256 "814969cd3577b9e3e94f469b610962dcd8a374c18748aef9c03ce187a5596b63"
+      url "https://github.com/jdblackstar/relay/releases/download/v0.2.4/relay_v0.2.4_aarch64-apple-darwin.tar.gz"
+      sha256 "3358f531b7f9aa380c57cf75528da9da4e41c87867d0a767649d166bbeea0012"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jdblackstar/relay/releases/download/v0.2.3/relay_v0.2.3_x86_64-unknown-linux-musl.tar.gz"
-      sha256 "50172b331856f7c87136218b46f08b34d98dfcc3e0b29dcd18871803d77672dd"
+      url "https://github.com/jdblackstar/relay/releases/download/v0.2.4/relay_v0.2.4_x86_64-unknown-linux-musl.tar.gz"
+      sha256 "37fb0c2ba783e846a11f1d6ea41ba6ed7b9e445c16a5b8ed4a71d9db5bdabe83"
     end
     on_arm do
-      url "https://github.com/jdblackstar/relay/releases/download/v0.2.3/relay_v0.2.3_aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c68d8fa7f422738ae56df7e854cb30911e25bfc8e0e092bcf478ecf4ee6beb4c"
+      url "https://github.com/jdblackstar/relay/releases/download/v0.2.4/relay_v0.2.4_aarch64-unknown-linux-musl.tar.gz"
+      sha256 "cd5fe70fa9818a9ac85ff5412b20ba3a95e25b947ec8c64d5821662949a8186e"
     end
   end
 
