@@ -2,27 +2,27 @@ class Pin < Formula
   desc "Small release manager for local tools"
   homepage "https://github.com/jdblackstar/pin"
   license "MIT"
-  version "0.1.4"
+  version "0.1.5"
 
   on_macos do
     on_arm do
-      url "https://github.com/jdblackstar/pin/releases/download/v0.1.4/pin_v0.1.4_aarch64-apple-darwin.tar.gz"
-      sha256 "b4fc032d5095dcbdbda7dbb90282438193b7fe552a6eb22763b4321b89d76102"
+      url "https://github.com/jdblackstar/pin/releases/download/v0.1.5/pin_v0.1.5_aarch64-apple-darwin.tar.gz"
+      sha256 "12b5abd7c4ca75c262bef28b0c30918efc58c38916f69c902300b755896e994f"
     end
     on_intel do
-      url "https://github.com/jdblackstar/pin/releases/download/v0.1.4/pin_v0.1.4_x86_64-apple-darwin.tar.gz"
-      sha256 "f3c2c7adebc14d46a3bbd0f41a928d3e70061592074905bc1a7f5021d91d9aba"
+      url "https://github.com/jdblackstar/pin/releases/download/v0.1.5/pin_v0.1.5_x86_64-apple-darwin.tar.gz"
+      sha256 "3650ef3e4427e2d3da548e0b3cae122fe1ce45a9b0e4323ec662f05a01461a16"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jdblackstar/pin/releases/download/v0.1.4/pin_v0.1.4_x86_64-unknown-linux-musl.tar.gz"
-      sha256 "189f71debd4a84c4b89fdb5947dd17945ee85ef2aaddae6e5ec5ad1f5a319281"
+      url "https://github.com/jdblackstar/pin/releases/download/v0.1.5/pin_v0.1.5_x86_64-unknown-linux-musl.tar.gz"
+      sha256 "3a9ee6706ea493a25a80a89ddb1008d27c21121b19af88259a48d108ef7e2aa9"
     end
     on_arm do
-      url "https://github.com/jdblackstar/pin/releases/download/v0.1.4/pin_v0.1.4_aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c6495c70ac39309f2c32dfebc512ffa2fb52ef01f0b3da4539b62bd40b88519d"
+      url "https://github.com/jdblackstar/pin/releases/download/v0.1.5/pin_v0.1.5_aarch64-unknown-linux-musl.tar.gz"
+      sha256 "312c642075e00317d3892980148d885d0b610d87db39d61e0fbffc6cbb2dbb5e"
     end
   end
 
